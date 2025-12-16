@@ -372,6 +372,8 @@ button,
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 }
 button:not(:disabled),
 [type=button]:not(:disabled),
@@ -430,6 +432,8 @@ legend + * {
 [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
 }
 
 /* rtl:raw:
@@ -442,6 +446,8 @@ legend + * {
 */
 ::-webkit-search-decoration {
   -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 ::-webkit-color-swatch-wrapper {
@@ -459,6 +465,8 @@ legend + * {
 ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 }
 
 output {
